@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Model weights / checkpoints
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Generated samples and run artefacts
+generation-results/
+wandb/
+lightning_logs/
+outputs/
+logs/
+.hydra/
+data-bin/
+.cache/
+
+# Editor / env
+.vscode/
+.idea/
+.env

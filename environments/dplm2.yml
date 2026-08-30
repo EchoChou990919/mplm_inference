@@ -1,0 +1,30 @@
+name: dplm2
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.2.0
+  - torchvision=0.17.0
+  - torchaudio=2.2.0
+  - pytorch-cuda=12.1
+  - numpy<2
+  - pandas
+  - scipy
+  - foldseek
+  - tmalign
+  - pip:
+      - setuptools<81
+      - --find-links https://data.pyg.org/whl/torch-2.2.0+cu121.html
+      - torch-scatter==2.1.2
+      - accelerate
+      - biotite==0.40.0
+      - tmtools
+      - transformers==4.39.2
+      - -e ./dplm
