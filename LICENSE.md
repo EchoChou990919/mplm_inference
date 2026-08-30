@@ -1,7 +1,7 @@
 # License Overview
 
-This repository combines project-original code with third-party code, model
-weights, and data. No single license applies to every part of the repository.
+This repository combines project-original code with third-party code. 
+No single license applies to every part of the repository.
 
 ## Project-original code
 
